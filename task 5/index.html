@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+   <div class="container">
+    <h2 class="title"> Решение задачи по макроэкономике </h2>
+       <h3 class="task"> Рассчитаем количество денег, необходимых для обращения. РQ – сумма цен товаров и услуг, подлежащих продаже,К – сумма цен товаров проданных в кредит,ПВ – платежи, по которым наступил срок возврата;ВП – сумма взаимно погашающихся платежей,V – скорость оборота денег.</h3>
+      <div class="task-content">
+       <h3> РQ:</h3><input id="РQ" value="" autocomplete="off">
+       <h3> К:</h3><input id="К" value="" autocomplete="off">
+       <h3> ПВ:</h3><input id="ПВ" value="" autocomplete="off">
+       <h3> ВП:</h3><input id="ВП" value="" autocomplete="off">
+       <h3> V:</h3><input id="V" value="" autocomplete="off">
+      </div>
+          <div class="task-text">
+          <h3 class="formula">
+              М = (PQ - K + ПВ - ВП)/V 
+          </h3>
+          <h3> Количество денег, необходимых для обращения изменяется прямо пропорционально сумме цен реализуемых товаров за вычетом суммы цен товаров, проданных в кредит, а также размеру наступивших платежей, не включая взаимопогашаемые обязательства, и обратно пропорционально скорости обращения денег. </h3>
+          <h3>  М:</h3> <p id="res"></p></div>
+       <div class="button">
+           <button id="btn"> click </button>
+       </div>
+
+
+   </div>
+<script src="js/script.js"></script>
+</body>
+</html>
