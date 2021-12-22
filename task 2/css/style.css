@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 128px;
+}
+header {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Bad Script', cursive;
+    font-size: 36px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 50px;
+    
+}
+nav{
+    text-align: center;
+}
+.list{
+    background: grey;
+    line-height: 25px;
+}
+.list li{
+    list-style: none;
+    display:inline-block;
+    text-align:center;
+}
+.list li a{
+    display:inline-block;
+    margin:10px; 
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color:black;
+}
+.list li a:hover{
+    text-decoration: underline;
+    border: 1px solid;
+}
+
+.left{
+    display: inline-block;
+    width: 20%;
+}
+.right{
+    vertical-align: top;
+    display: inline-block;
+    width: calc(80% - 4px);
+}
+footer{
+    text-align: center;
+    background: grey;
+}
