@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #bbbbbb;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.l_k{
+    max-width: 51px;
+    height: auto;
+    margin-right: 5px;
+}
+header .logo{
+    margin: auto;
+    max-width: 1250px;
+}
+.d-flex{
+    display: flex;
+}
+.one{
+    background-color: #fff;
+    margin: auto;
+    max-width: 1250px;
+}
+.two{
+    padding: 38px;
+}
+.menu{
+    max-width: 260px;
+    margin-right: 80px;
+}
+.univer{
+    margin-bottom: 30px;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cont{
+    max-width: 880px;
+}
+.cont h2{
+    margin-bottom: 60px;
+}
+.menu ul:first-of-type{
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.menu_nav{
+    padding: 10px;
+}
+.menu_nav:hover{
+    border: 1px solid #007eff;
+    background-color: #007eff;
+}
+.menu_nav a:hover{
+    color:#ffffff;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+}
+.social i{
+    font-size: 30px;
+}
+.teachers{
+    display: flex;
+    flex-wrap:wrap;
+}
+.teacher img{
+    width: 180px;
+    height: 250px;
+
+}
+.teacher{
+    margin-right: 40px;
+    max-width: 180px;
+    margin-bottom: 10px;
+}
